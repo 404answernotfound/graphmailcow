@@ -1,0 +1,17 @@
+{
+  "name": "graphmail",
+  "version": "1.0.0",
+  "description": "A Microsoft Graph mail client to send random Cowsay to my collegues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "404answernotfound - Lorenzo Pieri",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^3.0.2"
+  },
+  "devDependencies": {
+    "@microsoft/microsoft-graph-types": "^2.16.0"
+  }
+}
