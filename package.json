@@ -2,14 +2,19 @@
   "name": "graphmail",
   "version": "1.0.0",
   "description": "A Microsoft Graph mail client to send random Cowsay to my collegues",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "404answernotfound - Lorenzo Pieri",
   "license": "ISC",
   "dependencies": {
-    "@microsoft/microsoft-graph-client": "^3.0.2"
+    "@azure/msal-node": "^1.7.0",
+    "@microsoft/microsoft-graph-client": "^3.0.2",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "yargs": "^17.4.0"
   },
   "devDependencies": {
     "@microsoft/microsoft-graph-types": "^2.16.0"
